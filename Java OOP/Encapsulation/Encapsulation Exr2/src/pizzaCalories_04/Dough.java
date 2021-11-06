@@ -32,7 +32,6 @@ public class Dough {
                 break;
             default:
                 throw new IllegalArgumentException("Invalid type of dough.");
-
         }
     }
 
@@ -55,7 +54,6 @@ public class Dough {
                 return 1.1;
             case "Homemade":
                 return 1.0;
-
         }
         return 0.0;
     }
