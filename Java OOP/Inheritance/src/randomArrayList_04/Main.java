@@ -1,4 +1,4 @@
-import randomArrayList_04.RandomArrayList;
+package randomArrayList_04;
 
 public class Main {
 
