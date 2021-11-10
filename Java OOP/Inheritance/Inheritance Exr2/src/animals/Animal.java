@@ -6,36 +6,45 @@ public class Animal {
     private String gender;
 
     public Animal(String name, int age, String gender) {
-        this.setName(name);
-        this.setAge(age);
-        this.setGender(gender);
+        setName(name);
+        setAge(age);
+        setGender(gender);
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void setName(String name) {
-        if (name.trim().isEmpty()) {
+        if(name.trim().isEmpty()){
             throw new IllegalArgumentException("Invalid input!");
-        } else {
-            this.name = name;
         }
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
     }
 
     public void setAge(int age) {
         if (age < 0) {
             throw new IllegalArgumentException("Invalid input!");
-        } else {
-            this.age = age;
         }
+        this.age = age;
+    }
+
+    public String getGender() {
+        return this.gender;
     }
 
     public void setGender(String gender) {
-        if (gender.trim().isEmpty()) {
+        if(gender.trim().isEmpty()){
             throw new IllegalArgumentException("Invalid input!");
-        } else {
-            this.gender = gender;
         }
+        this.gender = gender;
     }
 
-    public String produceSound() {
+    public String produceSound(){
         return null;
     }
 

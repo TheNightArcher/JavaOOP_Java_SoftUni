@@ -11,21 +11,21 @@ public class Main {
         while (!animalsType.equals("Beast!")) {
             String[] inputData = scanner.nextLine().split("\\s+");
 
+            String name = inputData[0];
+            int age = Integer.parseInt(inputData[1]);
+            String gender = inputData[2];
             try {
-                String name = inputData[0];
-                int age = Integer.parseInt(inputData[1]);
-                String gender = inputData[2];
 
                 switch (animalsType) {
                     case "Cat":
                         Cat cat = new Cat(name, age, gender);
                         System.out.println(cat);
                         break;
-                    case "TomCat":
+                    case "Tomcat":
                         Tomcat tomCat = new Tomcat(name, age);
                         System.out.println(tomCat);
                         break;
-                    case "Kittens":
+                    case "Kitten":
                         Kitten kitten = new Kitten(name, age);
                         System.out.println(kitten);
                         break;
