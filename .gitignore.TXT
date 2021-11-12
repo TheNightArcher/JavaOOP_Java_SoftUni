@@ -1,5 +1,0 @@
-.idea
-workspace.xml
-usage.statistics.xml
-tasks.xml
-the shelf/ directory
