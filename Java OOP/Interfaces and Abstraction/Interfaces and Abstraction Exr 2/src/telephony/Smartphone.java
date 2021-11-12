@@ -5,8 +5,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Smartphone implements Callable, Browsable {
-    private List<String> numbers;
-    private List<String> urls;
+    private final List<String> numbers;
+    private final List<String> urls;
 
     public Smartphone(List<String> numbers, List<String> urls) {
         this.numbers = numbers;
@@ -16,7 +16,7 @@ public class Smartphone implements Callable, Browsable {
     @Override
     public String call() {
         StringBuilder sb = new StringBuilder();
-        String regex = "[0-9]";
+        String regex = "^[0-9]+$";
 
             for (String number : numbers) {
                 Pattern pattern = Pattern.compile(regex);
@@ -35,7 +35,7 @@ public class Smartphone implements Callable, Browsable {
     @Override
     public String browse() {
         StringBuilder sb = new StringBuilder();
-        String regex = "http://[a-z]{2,}.[a-z]{2,}";
+        String regex = "\\b(http://[a-z]+[.][a-z]+)\\b";
 
         for (String sites : urls) {
             Pattern pattern = Pattern.compile(regex);
