@@ -42,7 +42,7 @@ public class Smartphone implements Callable, Browsable {
             Matcher matcher = pattern.matcher(sites);
 
             if (matcher.find()) {
-                sb.append("Browsing... ").append(sites).append("!")
+                sb.append("Browsing: ").append(sites).append("!")
                         .append(System.lineSeparator());
             } else {
                 sb.append("Invalid URL!").append(System.lineSeparator());
