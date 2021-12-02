@@ -16,11 +16,15 @@ public abstract class Vehicle {
         double neededFuel = distance * littersPerKm;
 
         if (fuelQuantity >= neededFuel) {
-            DecimalFormat format = new DecimalFormat();
-            return this.getClass().getSimpleName()
-        }else {
-            throw IllegalArgumentException""
-        }
+            DecimalFormat format = new DecimalFormat("##.##");
 
+            return String.format("%s travelled %s km", getClass().getSimpleName(), format.format(neededFuel));
+        } else {
+            return String.format("%s needs refueling", getClass().getSimpleName());
+        }
+    }
+
+    public void refuel(double fuelPour) {
+        fuelQuantity += fuelPour;
     }
 }
