@@ -79,6 +79,7 @@ public class ControllerImpl implements Controller {
         if (astronauts.isEmpty()) {
             throw new IllegalArgumentException(ExceptionMessages.PLANET_ASTRONAUTS_DOES_NOT_EXISTS);
         }
+
         Planet planet = planetRepository.findByName(planetName);
         Mission mission = new MissionImpl();
         mission.explore(planet, astronauts);

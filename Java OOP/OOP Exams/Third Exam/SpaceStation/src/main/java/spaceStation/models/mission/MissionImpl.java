@@ -13,16 +13,12 @@ public class MissionImpl implements Mission {
 
         for (Astronaut astronaut : astronauts) {
 
-            for (String items : planets) {
+            while (astronaut.canBreath() && planets.iterator().hasNext()){
 
-                if (astronaut.getOxygen() > 0) {
-
-                    astronaut.getBag().getItems().add(items);
-                    planet.getItems().remove(items);
-                    astronaut.breath();
-                } else {
-                    break;
-                }
+                astronaut.breath();
+                String currentItem = planets.iterator().next();
+                astronaut.getBag().getItems().add(currentItem);
+                planets.remove(currentItem);
             }
         }
     }

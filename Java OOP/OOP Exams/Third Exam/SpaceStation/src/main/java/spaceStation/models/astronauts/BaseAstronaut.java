@@ -42,12 +42,12 @@ public abstract class BaseAstronaut implements Astronaut {
 
     @Override
     public boolean canBreath() {
-        return false;
+        return this.oxygen > 0;
     }
 
     @Override
     public Bag getBag() {
-        return null;
+        return this.bag;
     }
 
     @Override
