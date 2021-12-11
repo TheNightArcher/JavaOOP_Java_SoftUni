@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Encapsulation.iml" filepath="$PROJECT_DIR$/Encapsulation/Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Encapsulation Exr2/Encapsulation Exr2.iml" filepath="$PROJECT_DIR$/Encapsulation/Encapsulation Exr2/Encapsulation Exr2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance Exr2/Inheritance Exr2.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance Exr2/Inheritance Exr2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interfaces and Abstraction/Interfaces and Abstraction.iml" filepath="$PROJECT_DIR$/Interfaces and Abstraction/Interfaces and Abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interfaces and Abstraction/Interfaces and Abstraction Exr 2/Interfaces and Abstraction Exr 2.iml" filepath="$PROJECT_DIR$/Interfaces and Abstraction/Interfaces and Abstraction Exr 2/Interfaces and Abstraction Exr 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism Exr2/Polymorphism Exr2.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism Exr2/Polymorphism Exr2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflection and Annotation/Reflection and Annotation.iml" filepath="$PROJECT_DIR$/Reflection and Annotation/Reflection and Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflection and Annotation/Reflection and Annotation Exr2/Reflection and Annotation Exr2.iml" filepath="$PROJECT_DIR$/Reflection and Annotation/Reflection and Annotation Exr2/Reflection and Annotation Exr2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit Testing/Unit Testing.iml" filepath="$PROJECT_DIR$/Unit Testing/Unit Testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UnitTesting Exr2/Unit Testing Exr2.iml" filepath="$PROJECT_DIR$/UnitTesting Exr2/Unit Testing Exr2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Working with Abstraction/Working with Abstraction.iml" filepath="$PROJECT_DIR$/Working with Abstraction/Working with Abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Working with Abstraction/Working with Abstraction Exr2/Working with Abstraction Exr2.iml" filepath="$PROJECT_DIR$/Working with Abstraction/Working with Abstraction Exr2/Working with Abstraction Exr2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit Testing Exr2/src/main/main.iml" filepath="$PROJECT_DIR$/Unit Testing Exr2/src/main/main.iml" />
+    </modules>
+  </component>
+</project>
