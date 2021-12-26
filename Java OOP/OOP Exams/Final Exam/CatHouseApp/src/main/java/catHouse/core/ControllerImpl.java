@@ -128,7 +128,8 @@ public class ControllerImpl implements Controller {
                 return String.format(ConstantMessages.FEEDING_CAT, house.getCats().size());
             }
         }
-        return null;
+    //    houses.stream().filter(h -> h.getName().equals(houseName)).forEach(h -> h.getCats().forEach(Cat::eating));
+        return "House is not found";
     }
 
     @Override
